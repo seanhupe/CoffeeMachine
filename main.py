@@ -45,7 +45,7 @@ def is_transaction_successful(money_received, drink_cost):
         profit += drink_cost
         return True
     else:
-        print("Sorry that is not enough money. Money refunded.")
+        print("Sorry, that is not enough money. Money refunded.")
         return False
 
 
